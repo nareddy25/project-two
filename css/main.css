@@ -1,3 +1,20 @@
+/* Custom Properties */
+:root {
+  --neutral-tan: hsl(35, 27%, 91%);
+  --blue: hsl(220, 23%, 31%);
+  --dark-blue: hsl(220, 24%, 20%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --hyperlink-color: color: hsl(228, 45%, 44%);
+  --heading-font-family: 'Alegreya', serif;
+  --body-font-family: 'Raleway', sans-serif
+
+}
+
+:root {
+  background-color: var(--neutral-tan);
+  background-size: cover;
+}
+
 /* Decent Defaults */
 
 img,
@@ -5,3 +22,20 @@ video {
   width: 100%;
   height: auto;
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Only Styles */
+@media (max-width: 47.9375em) {
+}
+
+/* Desktop Only Styles */
+@media (min-width: 48em) {
+  
+  }
