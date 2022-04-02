@@ -85,6 +85,8 @@ body {
   list-style-type: none;
   transform: translateX(100%);
   transition: all 300ms;
+  list-style: none;
+  text-decoration: none;
 }
 
 #menu:target {
@@ -107,7 +109,7 @@ body {
 
 .h3 {
   display: flex;
-  align-self: center;
+  align-items: center;
   margin-top: 1rem;
 }
 
